@@ -16,6 +16,7 @@ public class Product {
 	@Id
 	@GeneratedValue (strategy = GenerationType.AUTO)
 	private Integer productId;
+	private Integer userId;
 	private String productName;
 	private Integer quantity;
 	private Double price;

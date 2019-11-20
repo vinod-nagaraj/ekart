@@ -10,7 +10,7 @@ import com.example.demo.entity.User;
 public interface UserRepository extends JpaRepository<User, Integer> {
 
 	
-	Optional<List<User>> findBymobNum(String getmobNum);
+	Optional<List<User>> findBymobNum(Integer getmobNum);
 	Optional<List<User>> findBymobNumandPassword(String mobNum, String password );
 
 }

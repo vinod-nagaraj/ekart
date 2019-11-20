@@ -9,4 +9,5 @@ public class ResponseDto {
 
 	private Integer statusCode;
 	private String message;
+	private int userId;
 }

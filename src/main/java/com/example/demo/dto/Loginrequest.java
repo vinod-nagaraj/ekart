@@ -10,4 +10,5 @@ public class Loginrequest {
 	private String userName;
 	private String password;
 	private String mobNum;
+	private int userId;
 }
